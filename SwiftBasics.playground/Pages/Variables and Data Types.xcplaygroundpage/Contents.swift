@@ -46,27 +46,28 @@ print(
 // TODO: After a quick refresher of data types, we have a series of challenges. Declare variables using the given prompts, be sure to adhere to all constraints of the prompt. As we've done above, explicitly state the type whenever you declare a variable:
 
 // PROMPT 1: Declare a mutable variable called 'myName' of type String with initial value “Peter”.
-
+var myName: String = "Peter"
 print(myName)
 
-// PROMPT 2: Declare a constant called 'favouriteNumber' of type Int with initial value 99.
 
+// PROMPT 2: Declare a constant called 'favouriteNumber' of type Int with initial value 99.
+let favouriteNumber: Int = 99
 print(favouriteNumber)
 
 // PROMPT 3: Declare a mutable variable called 'myMother' of type Optional String with initial value “Mary”.
-
+var myMother: String? = "Mary"
 print(myMother)
 
 // PROMPT 4: Declare a constant called 'collegeGPA' of type Optional Double with NO VALUE (what keyword do we use to represent this?).
-
+let collegeGPA: Double? = nil
 print(collegeGPA)
 
 // PROMPT 5: Declare a mutable variable called 'highSchoolGPA' of type Optional Double with 3.9.
-
+var highSchoolGPA: Double? = 3.9
 print(highSchoolGPA)
 
 // PROMPT 6: Declare a mutable variable called 'iOSDevIsTheBest' of type Bool with true.
-
+var iOSDevIsTheBest: Bool = true
 print(iOSDevIsTheBest)
 
 // PROMPT 7: Declare a constant called 'earthIsFlat' of type Optional Bool with false.
