@@ -75,9 +75,9 @@ c = 10
 
 var result1: Int = -1 // Declared but uninitialized.
 func challenge1() -> Void {
-    // CODE GOES HERE
+    result1 = (a + b) * c
 }
-
+challenge1()
 /*
  CHALLENGE 2:
     Divide the value in 'result1' by a. Subtract the result of that by b+c. Store the end value of this computation in result2.
@@ -88,9 +88,9 @@ c = 4
  
 var result2: Int = -1 // Declared but uninitialized.
 func challenge2() -> Void {
-    // CODE GOES HERE
+    result2 = result1 / a - (b + c)
 }
-
+challenge2()
 /*
  CHALLENGE 3:
     If you combine the inputs d and e below, you get the string "I've been alive for  years." Place result2 in between the strings stored in variables 'd' and 'e' to form a coherent statement.
@@ -101,9 +101,9 @@ e = " years."
 
 var result3: String = "" // Declared but uninitialized.
 func challenge3() -> Void {
-    // CODE GOES HERE
+    result3 = d + "\(result2)" + e
 }
-
+challenge3()
 /*
  CHALLENGE 4:
     In one line, compute the remainder of dividing a by b, and *interpolate* it between string inputs d and e.
@@ -116,15 +116,23 @@ e = ". That's unfortunate."
 
 var result4: String = "" // Declared but uninitialized.
 func challenge4() -> Void {
-    // CODE GOES HERE
+    result4 = d + "\(a % b)" + e
     
 }
-
+challenge4()
 /*
  CHALLENGE 5:
     - Without using the '+' operator (use something that looks very similar), add the value 10 to input a.
     - Without using the '*' operator (use something that looks very similar), multiply input b by a.
  */
 func challenge5() -> Void {
-    // CODE GOES HERE
+    a += 10
+    b *= a
 }
+challenge5()
+print(result1)
+print(result2)
+print(result3)
+print(result4)
+print(a)
+print(b)
