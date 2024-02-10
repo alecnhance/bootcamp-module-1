@@ -71,11 +71,12 @@ var iOSDevIsTheBest: Bool = true
 print(iOSDevIsTheBest)
 
 // PROMPT 7: Declare a constant called 'earthIsFlat' of type Optional Bool with false.
-
+let earthIsFlat: Bool? = false
 print(earthIsFlat)
 
 // PROMPT 8: You want to store the value 3.4924799789977 in a mutable variable called 'myBalance' of type Float/Double. Declare such a variable with this value. What type is best to store this value? Float or Double? (Hint: look at the number of decimal digits)
-
+var myBalance: Double = 3.4924799789977
 print(myBalance)
+
 
 
